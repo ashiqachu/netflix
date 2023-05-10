@@ -1,0 +1,321 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'popins',sans-serif;
+}
+.body{
+    background: black;
+    color: #fff;
+
+}
+.main{
+    width: 100%;
+    height:700px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.4),rgba(0,0,0,0.9)), url(images/header.jpg) ;
+}
+.logo-signin{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+
+
+}
+.logo img{
+    width:150px;
+    height: 40px;
+    margin-left: 140px;
+}
+.eng-signin{
+    padding-right: 150px;
+}
+.eng-signin button{
+    width: 90px;
+    height: 30px;
+    
+}
+.signin-bt{
+    color: #fff;
+    background-color: red;
+    font-size:15px;
+    font-weight: 600;
+    border-radius:7px;
+}
+.lang-bt{
+    background: transparent;
+    font-size:15px;
+    font-weight: 500;
+
+}
+.email-text{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 200px;
+    cursor: default;
+
+    
+    
+}
+.text h1{
+     font-size: 40px;
+     font-weight: 900;
+     
+
+}
+.text h3{
+    font-size: 25px;
+    margin-left: 240px;
+    font-weight:10px ;
+    margin-top: 20px;
+    font-weight: 1;
+}
+.text p{
+    font-size: 20px;
+    margin-left:105px ;
+    margin-top: 20px;
+}
+.text input{
+    margin-left: 140px;
+    width: 400px;
+    height: 60px;
+    background: black;
+    margin-top: 15px;
+    border-radius: 3px;
+    padding-left: 20px;
+    font-size: 17px;
+    cursor: default;
+
+}
+.text button{
+    height: 59px;
+    width: 150px;
+    background: red;
+    border-color: black;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 4px;
+
+}
+.text button:hover{
+    background: #c11119;
+}
+
+
+
+
+
+
+
+.function{
+    padding-top: 50px;
+    border-top:4px solid #2d2d2d;
+}
+
+.row{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 400px;
+}
+.funtxt h1{
+    font-size: 40px;
+    font-weight: 900;
+    cursor: default;
+}
+.funtxt h3{
+    font-weight: 3;
+    font-size: 25px;
+    margin-top: 20px;
+    cursor: default;
+
+}
+.funtxt{
+    margin-left: 200px;
+
+}
+.funimg img{
+    width:70vh;
+  
+
+}
+.funimg{
+    margin-right:200px ;
+}
+
+
+
+
+
+
+
+
+.funimg1{
+    margin-left:200px ;
+}
+.funtxt1{
+    margin-right: 200px;
+
+
+}
+.funimg1 img{
+    width:70vh;
+  
+
+}
+.funtxt1 h3{
+    font-weight: 3;
+    font-size: 25px;
+    margin-top: 20px;
+    cursor: default;
+
+}
+.funtxt1 h1{
+    font-size: 40px;
+    font-weight: 900;
+    cursor: default;
+}
+
+
+
+.nxtf{
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border-top:4px solid #2d2d2d;
+    
+   
+}
+.nxtt{
+   /* margin-left: 300px;*/
+   text-align: center;
+   padding-top: 25px;
+
+
+    
+}
+.nxtt h1{
+    font-size: 45px;
+    font-weight: 800;
+    cursor: default;
+}
+.nxtbut{
+    margin: 10px;
+    width:950px;
+    margin-left: 150px;
+    background-color:#2d2d2d ;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nxtbut button{
+    background:transparent;
+    margin-left:20px;
+    font-size: 24px;
+    margin-top: px;
+}
+.nxtbut:hover
+ {
+   transition: .3s;
+    background: #4e4e4e;
+}
+.nxtbt{
+    margin-top: 30px;
+}
+.nxtbut img{
+    margin-right: 20px;
+}
+.nxt-t-e{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 47px;
+}
+.nxth3 h3{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+    
+
+.nxtemail input{
+    height: 50px;
+    width: 400px;
+    margin-left: 140px;
+    width: 400px;
+    height: 60px;
+    background: black;
+    margin-top: 15px;
+    border-radius: 3px;
+    padding-left: 20px;
+    font-size: 17px;
+
+ 
+}
+.nxtemail{
+    padding-top: 16px;
+    margin-right: 170px;
+    
+}
+.nxtemail button{
+    height: 59px;
+    width: 150px;
+    background: red;
+    border-color: black;
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.about{
+    display: flex;
+
+}
+.about2{
+    margin-left: 150px;
+    margin-top: 25px;
+    line-height: 35px;
+}
+ul{
+    list-style: none;
+    
+}
+.footer{
+    height: 370px;
+    color: rgba(255, 255, 255, 0.7);
+    border-top:4px solid #2d2d2d;
+    margin-top: 72px;
+}
+.contact{
+    margin-left: 150px;
+    margin-top: 140px;
+    cursor: default;
+}
+ul li{
+    font-size: 15px;
+}
+.language{
+    background-color:transparent;
+    height: 32px;
+    width: 126px;
+    margin-top: 38px;
+}
+.footglob img{
+    margin-left:153px ;
+}
+.netflix{
+font-size: 0.875rem;
+margin-left: 153px;
+margin-top: 18px;
+display: flex;
+}
+
+
+
+
+
+
